@@ -85,4 +85,21 @@ generateButton.addEventListener('click', () => {
 
 copyButton.addEventListener('click', () => {
     navigator.clipboard.writeText(passwordDisplay.textContent)
-})
+        .then(() => {
+            // Show modal
+            document.getElementById('copyModal').style.display = 'block';
+            // Hide modal after 2 seconds
+            setTimeout(() => {
+                document.getElementById('copyModal').style.display = 'none';
+            }, 2000);
+        })
+        .catch(err => {
+            console.error('Could not copy password: ', err);
+            alert('Failed to copy password. Please try again.');
+        });
+});
+
+// Close the modal when the user clicks on the close button
+document.querySelector('.close').addEventListener('click', () => {
+    document.getElementById('copyModal').style.display = 'none';
+});
