@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatibile" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="title-container">
+            <div class="title">Password Generator</div>
+        </div>
+
+    <div class="container">
+        <div class="password-container">
+            <div class="password">Password Appears Here</div>
+            <button class="password-copy">
+                <img src="assets/cp-icon-64x64.png" alt="copy">
+            </button>
+        </div>
+
+        <div class="options-container">
+            <div class="length-container">
+                <div class="text">Set Password Length:</div>
+                <div class="length">10</div>
+            </div>
+
+            <input type="range" min="8" max="24" value="10" class="slider">
+
+            <div class="input-container">
+                <input type="checkbox" id="upper">
+                <div class="text">Include Uppercase Letters [A-Z]</div>
+            </div>
+            <div class="input-container">
+                <input type="checkbox" id="lower">
+                <div class="text">Include Lowercase Letters [a-z]</div>
+            </div>
+            <div class="input-container">
+                <input type="checkbox" id="numbers">
+                <div class="text">Include Numbers [0-9]</div>
+            </div>
+            <div class="input-container">
+                <input type="checkbox" id="symbols">
+                <div class="text">Include Symbols</div>
+            </div>
+
+            <button class="btn-generate">Generate Password</button>
+        </div>
+    </div>
+</body>
+</html>
