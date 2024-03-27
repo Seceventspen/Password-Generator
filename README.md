@@ -1,7 +1,7 @@
 # Password Generator Readme
 Welcome to the Password Generator repository! This simple tool allows you to generate secure passwords tailored to your specifications effortlessly. Whether you need a strong password for your online accounts or want to enhance the security of your digital presence, this generator has got you covered.
 
-![demo](https://github.com/Seceventspen/Password-Generator/assets/demo.jpg)
+![demo](assets/demo.jpg)
 
 ## Overview
 The Password Generator consists of HTML, CSS, and JavaScript files, working harmoniously to create a user-friendly interface and dynamically generate passwords. Let's break down the key components and functionality:
