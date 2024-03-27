@@ -10,7 +10,7 @@ The HTML file (index.html) sets up the structure of the web page. It includes el
 ### CSS
 The CSS file (styles.css) handles the visual styling of the web page, ensuring a sleek and responsive design. It defines the layout, colors, fonts, and appearance of various elements to provide an aesthetically pleasing user experience.
 
-## JavaScript
+### JavaScript
 The JavaScript file (script.js) brings interactivity to the Password Generator. It dynamically updates the password length display based on the slider value, listens for user input to customize password options, generates random passwords based on user preferences, and enables copying passwords to the clipboard.
 
 ## Key Functionality
